@@ -1004,7 +1004,7 @@ footer {
 
 /*############# PARTIE ANIMATION ############# */
 .loader{
-  background-color: #fff;
+  background-color:black;
   height: 100vh;
   position: fixed;
   inset: 0;
@@ -1019,8 +1019,10 @@ footer {
 }
 .loader::after{
   content: "";
-  height: 100px;
-  width: 100px;
+  height: 50vh;
+  width: 50vh;
+  background: url(./images/pixil.png);
+  background-size: cover;
   border-top: 5px solid #b06cc5;
   border-bottom: 5px solid #caacd4;
   border-left: 5px solid #e4d8eb;
