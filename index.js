@@ -55,7 +55,7 @@ window.addEventListener("scroll", () => {
 });
 
 // Typeit
-new TypeIt("#type1", {
+/*new TypeIt("#type1", {
   speed: 120,
   loop: true,
   waitUntilVisible: true,
@@ -67,7 +67,7 @@ new TypeIt("#type1", {
   .pause(500)
   .delete(9)
   .go();
-
+*/
 // Fix Nav
 const navBar = document.querySelector(".navigation");
 const navHeight = navBar.getBoundingClientRect().height;

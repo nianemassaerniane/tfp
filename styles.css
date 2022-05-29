@@ -40,6 +40,7 @@ body {
   background-color: var(--white);
   color: var(--black);
   transition: var(--transition-2);
+  line-height: 35px;
 }
 
 body.dark {
@@ -282,11 +283,10 @@ img {
 }
 
 .hero-img {
-  height: 42rem;
-  width: 42%;
+  height: auto;
+  width: 100%;
   position: absolute;
-  right: 30px;
-  bottom: 0;
+  bottom: 141px;
   z-index: -1;
 }
 
